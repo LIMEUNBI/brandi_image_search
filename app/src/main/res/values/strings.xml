@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ImageSearch</string>
+    
+    <string name="APP_KEY">ff3fb548a624b5a91b67538a67dcffa8</string>
+    
+    <string name="img_search">이미지를 검색해보세요.</string>
+    <string name="no_data">검색 결과가 없습니다.</string>
+    <string name="app_exit">"'뒤로' 버튼을 한번 더 누르시면 종료됩니다."</string>
+    <string name="move">이동</string>
+    <string name="last_result">마지막 검색 결과 페이지입니다.</string>
+
+</resources>
