@@ -106,7 +106,7 @@ class MainActivity : BaseActivity() {
                 if (!isEnd) {
                     mPage += 1
                 } else {
-                    Toast.makeText(applicationContext, resources.getText(R.string.last_result), Toast.LENGTH_LONG).show()
+                    Toast.makeText(applicationContext, resources.getText(R.string.no_data), Toast.LENGTH_LONG).show()
                     return
                 }
 
@@ -128,6 +128,7 @@ class MainActivity : BaseActivity() {
             override fun onRequestFailure(t: Throwable?) {
                 mGridView.visibility = View.GONE
                 mTxtNoData.visibility = View.VISIBLE
+                mTxtNoData.text = resources.getText(R.string.no_data)
             }
         }
 
